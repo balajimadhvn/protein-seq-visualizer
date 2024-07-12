@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein Sequence Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Protein Sequence Viewer</h1>
+    </header>
+    <main>
+        <section class="sequence-input">
+            <h2>Input Protein Sequence (FASTA format)</h2>
+            <textarea id="sequenceInput" placeholder="Paste or upload your protein sequence..."></textarea>
+            <input type="file" id="fileUpload" accept=".fasta">
+            <button id="submitBtn">Submit</button>
+        </section>
+        <section id="sequenceDisplay" class="sequence-display">
+            <h2>Protein Sequence</h2>
+            <pre id="sequenceText"></pre>
+        </section>
+        <section id="sequenceAnalysis" class="sequence-analysis">
+            <h2>Sequence Analysis</h2>
+            <ul id="analysisResults">
+                <li><strong>Molecular Weight:</strong> <span id="molWeight"></span></li>
+                <li><strong>pI (Isoelectric Point):</strong> <span id="pI"></span></li>
+                <li><strong>Secondary Structure:</strong> <span id="secondaryStructure"></span></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Created with ❤️ by Your Name | Visit <a href="http://proteinseqviewer.com" target="_blank">proteinseqviewer.com</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
