@@ -7,7 +7,7 @@ Input protein sequences via direct input or file upload (FASTA format).
 Calculate molecular properties: molecular weight, isoelectric point (pI).
 Predict secondary structure elements: alpha helices, beta strands/sheets, coils.
 Intuitive interface built with JavaScript, HTML, and CSS.
-Accessible via [yourdomainname.com](http://127.0.0.1:5500/index.html).
+Accessible via [proteinseqviewer.com](http://127.0.0.1:5500/index.html).
 Usage:
 Input a protein sequence in FASTA format or upload a file.
 Click "Submit" to analyze the sequence.
