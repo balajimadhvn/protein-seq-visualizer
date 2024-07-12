@@ -1,9 +1,14 @@
 **Protein Sequence Viewer**
 
-The Protein Sequence Viewer is a comprehensive web application designed for bioinformatics analysis of protein sequences. Users can input protein sequences either by directly pasting them in FASTA format or by uploading a file. The tool calculates essential molecular properties such as molecular weight and predicts the isoelectric point (pI) to understand the biochemical characteristics of the protein. Additionally, it utilizes algorithms to predict secondary structure elements like alpha helices, beta strands/sheets, and coils, providing insights into the potential structural and functional properties of the protein sequence.
+The Protein Sequence Viewer is a web application for bioinformatics analysis of protein sequences. Users can input protein sequences in FASTA format directly or upload files for analysis. The tool calculates molecular properties such as molecular weight and predicts the isoelectric point (pI), providing insights into the biochemical characteristics of the protein. Additionally, it predicts secondary structure elements including alpha helices, beta strands/sheets, and coils, offering insights into the protein's structure and function.
 
-Built using a combination of JavaScript for interactivity, HTML for structure, and CSS for styling, the Protein Sequence Viewer offers an intuitive interface that allows users to explore and analyze protein sequences efficiently. Whether you're a bioinformatics researcher, student, or enthusiast, this tool serves as a valuable resource for gaining deeper insights into protein sequences and their biological significance.
-
----
-
-Feel free to further customize this description based on specific features, functionalities, or unique aspects of your project that you want to highlight.
+Features:
+Input protein sequences via direct input or file upload (FASTA format).
+Calculate molecular properties: molecular weight, isoelectric point (pI).
+Predict secondary structure elements: alpha helices, beta strands/sheets, coils.
+Intuitive interface built with JavaScript, HTML, and CSS.
+Accessible via [yourdomainname.com](http://127.0.0.1:5500/index.html).
+Usage:
+Input a protein sequence in FASTA format or upload a file.
+Click "Submit" to analyze the sequence.
+View calculated molecular properties and predicted secondary structure.
